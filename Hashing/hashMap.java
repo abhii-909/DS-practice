@@ -26,13 +26,6 @@ class hashMap {
             mp.put(key, freq); 
         }
 
-        // Iterate over the map:
-        /*
-        for (Map.Entry<Integer, Integer> it : mp.entrySet()) {
-            System.out.println(it.getKey() + "->" + it.getValue());
-        }
-        */
-
         System.out.println("Enter the no. of elements to be checked: ");
         int q = in.nextInt();
         System.out.println("Enter the no. to be checked: ");
@@ -59,3 +52,5 @@ class hashMap {
 // Number 2 repeats: 2 times
 // Number 3 repeats: 1 times
 // Number 4 repeats: 0 times
+
+
