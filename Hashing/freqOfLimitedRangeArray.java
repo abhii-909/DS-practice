@@ -25,7 +25,6 @@ public class freqOfLimitedRangeArray {
 
         System.out.println("Enter the maximum value (P): ");
         int P = sc.nextInt();
-
         System.out.println("Original array: " + Arrays.toString(arr));
 
         // Call the function
