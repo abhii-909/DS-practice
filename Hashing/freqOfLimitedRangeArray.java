@@ -49,7 +49,6 @@ public class freqOfLimitedRangeArray {
 }
 
 
-
 //OUTPUT -->
 // Enter the size of the array (N): 
 // 7
