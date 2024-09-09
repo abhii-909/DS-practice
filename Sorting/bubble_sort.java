@@ -5,6 +5,8 @@ public class bubble_sort {
 
         //the algorithm
         for (int i = n-1 ; i >= 0; i--) {
+            //adding this condition makes the code more optimal with better TC.
+            int didswap = 0;
             for (int j = 0; j <= i-1; j++) {
                 if(arr[j] > arr[j+1]){
 
@@ -12,7 +14,14 @@ public class bubble_sort {
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    didswap = 1;
+                // We will check in the first iteration if any swap is taking place. (eg; 2, 3, 5, 15, 20) 
+                //If the array is already sorted no swap will occur and we will break out from the loops. 
+                //Thus the iteration of the outer loop will be just 1. And our overall time complexity will be O(N).
                 }
+            }
+            if(didswap == 0){
+                break;
             }
         }
         //making the code presentable
@@ -24,7 +33,7 @@ public class bubble_sort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {13, 46, 24, 52, 20, 9};
+        int[] arr = {13, 15, 24, 52, 20, 9};
         int n = arr.length;
 
         //presentation again
