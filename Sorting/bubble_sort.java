@@ -33,7 +33,7 @@ public class bubble_sort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {13, 15, 24, 52, 20, 9};
+        int[] arr = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
 
         //presentation again
