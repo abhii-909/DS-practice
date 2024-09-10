@@ -39,4 +39,4 @@ public class selection_sort{
 // 13 46 24 52 20 9 
 
 // After selection sort: 
-// 9 13 20 24 46 52 
+// 9 13 20 24 46 52
