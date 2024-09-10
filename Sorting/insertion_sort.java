@@ -32,3 +32,10 @@ public class insertion_sort {
         insertionSort(arr, n);
     }
 }
+
+// OUTPUT --> 
+// Before insertion sort: 
+// 14 9 15 12 6 0 13 
+
+// After insertion sort: 
+// 0 6 9 12 13 14 15 

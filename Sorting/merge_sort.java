@@ -60,3 +60,10 @@ public class merge_sort {
         System.out.println();
     }
 }
+
+// OUTPUT -->
+// Before sorting array: 
+// 9 4 7 6 3 1 5 
+
+// After sorting array: 
+// 1 3 4 5 6 7 9 

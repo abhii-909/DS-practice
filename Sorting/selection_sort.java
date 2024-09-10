@@ -33,3 +33,10 @@ public class selection_sort{
         select_sort(arr, n);
     }
 }
+
+// OUTPUT -->
+// Before selection sort: 
+// 13 46 24 52 20 9 
+
+// After selection sort: 
+// 9 13 20 24 46 52 

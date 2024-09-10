@@ -47,3 +47,11 @@ public class bubble_sort {
         bubbleSort(arr, n);
     }
 }
+
+
+//OUTPUT -->
+// Before bubble sort: 
+// 13 46 24 52 20 9 
+
+// After bubble sort: 
+// 9 13 20 24 46 52 
