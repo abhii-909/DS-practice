@@ -33,8 +33,7 @@ class recursive_bubble {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        
-        // Sorting the array using recursive bubble sort
+
         bubbleSort(arr, n);
         
         System.out.println("Sorted array: ");
