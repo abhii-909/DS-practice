@@ -15,11 +15,13 @@ public class quick_sort {
                 j--;
             }
             if(i < j){
+                // Swapping elements
                 int temp = arr.get(i);
                 arr.set(i, arr.get(j));
                 arr.set(j, temp);
             }
         }
+        // Swapping pivot element to the correct position
         int temp = arr.get(low);
         arr.set(low, arr.get(j));
         arr.set(j, temp);
