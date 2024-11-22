@@ -60,5 +60,11 @@ public class linked_list {
         list.addFirst("a");
         list.addFirst("is");
         list.printList();
+
+        list.addLast("list");
+        list.printList();
+
+        list.addFirst("This");
+        list.printList();
     }
 }
