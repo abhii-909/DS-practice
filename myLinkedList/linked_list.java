@@ -1,6 +1,6 @@
 //  using linkedlist without collection frameworks
 
-package LinkedList;
+package myLinkedList;
 
 public class linked_list {
     Node head;

@@ -1,12 +1,10 @@
 //using collection frameworks
 
-package LinkedList;
-
-import java.util.*;
+package myLinkedList;
 
 public class linked_list1 {
     public static void main(String[] args) {
-        LinkedList<String> list = new LinkedList<String>();
+        java.util.LinkedList<String> list = new java.util.LinkedList<String>();
 
         list.addFirst("a");
         list.addFirst("is");
